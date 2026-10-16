@@ -428,15 +428,21 @@
                             </div>
                         </div>
                         
-                        <!-- File 5 -->
-                        <div class="flex items-center justify-between bg-white p-3 md:p-4 rounded-xl border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all group">
-                            <div class="flex items-center gap-3 md:gap-4 w-full">
-                                <div class="w-8 h-8 md:w-10 md:h-10 flex-shrink-0 text-blue-500 bg-blue-50 rounded-lg p-1.5 md:p-2 flex items-center justify-center">
+                        <!-- File 5 (MODIFIED TO ADD ACTIVATION NOTICE & FULLY RESPONSIVE TEXT) -->
+                        <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white p-3 md:p-4 rounded-xl border border-slate-200 hover:border-blue-400 hover:shadow-md transition-all group gap-3 sm:gap-0">
+                            <div class="flex items-start sm:items-center gap-3 md:gap-4 w-full">
+                                <div class="w-8 h-8 md:w-10 md:h-10 flex-shrink-0 text-blue-500 bg-blue-50 rounded-lg p-1.5 md:p-2 flex items-center justify-center mt-1 sm:mt-0">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-full h-full"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" /></svg>
                                 </div>
-                                <span class="text-xs md:text-sm font-medium text-slate-700 group-hover:text-blue-600 transition-colors truncate">Akses Sistem E-Learning & Squad30.link</span>
+                                <div class="flex flex-col w-full min-w-0 pr-2">
+                                    <span class="text-xs md:text-sm font-medium text-slate-700 group-hover:text-blue-600 transition-colors leading-tight">Akses Sistem E-Learning & Squad30.link</span>
+                                    <span class="text-[9px] md:text-[10px] text-red-500 mt-1.5 font-semibold flex items-start gap-1.5 leading-snug">
+                                        <svg class="w-3 h-3 flex-shrink-0 mt-[1px]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                                        <span class="break-words">*Dikunci: Boleh diakses selepas SIMKAD sampai & berjaya diaktifkan</span>
+                                    </span>
+                                </div>
                             </div>
-                            <span class="text-[10px] md:text-xs bg-blue-100 text-blue-600 px-2 py-1 md:px-3 rounded-full font-bold uppercase hidden sm:block">Portal</span>
+                            <span class="text-[10px] md:text-xs bg-blue-100 text-blue-600 px-2 py-1 md:px-3 rounded-full font-bold uppercase self-start sm:self-auto flex-shrink-0 ml-11 sm:ml-2">Portal</span>
                         </div>
 
                         <!-- File 6 -->
@@ -775,19 +781,22 @@
                     Tawaran Terhad
                 </div>
 
-                <!-- VALUE STACK RECEIPT -->
+                <!-- VALUE STACK RECEIPT (MODIFIED FOR FULL TEXT VISIBILITY) -->
                 <div class="bg-slate-50 border border-slate-200 rounded-2xl p-6 md:p-8 mb-8 md:mb-10 font-mono text-sm md:text-base">
                     <p class="text-center font-bold text-slate-500 mb-6 border-b border-dashed border-slate-300 pb-4">RINGKASAN NILAI PAKEJ</p>
-                    <div class="space-y-3 text-slate-700">
-                        <div class="flex justify-between items-center"><p>1. Ebook Buat Duit Eastel</p><span class="font-bold">- RM 99</span></div>
-                        <div class="flex justify-between items-center"><p>2. SIMKAD + Postage Free <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1">BONUS</span></p><span class="font-bold">- RM 17</span></div>
-                        <div class="flex justify-between items-center"><p>3. Akses E-learning & Squad30 <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1">BONUS</span></p><span class="font-bold">- RM 150</span></div>
-                        <div class="flex justify-between items-center"><p>4. 5000+ Database Prospek <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1">BONUS</span></p><span class="font-bold">- RM 250</span></div>
-                        <div class="flex justify-between items-center"><p>5. 30 Days Challenge Blueprint <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1">BONUS</span></p><span class="font-bold">- RM 99</span></div>
-                        <div class="flex justify-between items-center"><p>6. Script Explain & Closing Sale <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1">BONUS</span></p><span class="font-bold">- RM 69</span></div>
+                    <div class="space-y-4 md:space-y-3 text-slate-700">
+                        <div class="flex justify-between items-center"><p>1. Ebook Buat Duit Eastel</p><span class="font-bold flex-shrink-0 ml-2">- RM 99</span></div>
+                        <div class="flex justify-between items-center"><p class="leading-tight">2. SIMKAD + Postage Free <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1 inline-block mb-1">BONUS</span></p><span class="font-bold flex-shrink-0 ml-2">- RM 17</span></div>
+                        <div class="flex justify-between items-start gap-2">
+                            <p class="leading-tight">3. Akses E-learning & Squad30 <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1 inline-block mb-1">BONUS</span><br><span class="text-[9px] md:text-[10px] text-red-500 italic font-medium inline-block mt-1 leading-tight">*Akses penuh dibuka selepas SIMKAD aktif</span></p>
+                            <span class="font-bold flex-shrink-0 mt-0.5">- RM 150</span>
+                        </div>
+                        <div class="flex justify-between items-center"><p class="leading-tight">4. 5000+ Database Prospek <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1 inline-block mb-1">BONUS</span></p><span class="font-bold flex-shrink-0 ml-2">- RM 250</span></div>
+                        <div class="flex justify-between items-center"><p class="leading-tight">5. 30 Days Challenge Blueprint <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1 inline-block mb-1">BONUS</span></p><span class="font-bold flex-shrink-0 ml-2">- RM 99</span></div>
+                        <div class="flex justify-between items-center"><p class="leading-tight">6. Script Explain & Closing Sale <span class="bg-brand-red text-white text-[8px] px-1.5 rounded ml-1 inline-block mb-1">BONUS</span></p><span class="font-bold flex-shrink-0 ml-2">- RM 69</span></div>
                     </div>
                     <div class="border-t-2 border-slate-800 mt-6 pt-4 flex justify-between items-center font-black text-lg md:text-xl text-brand-dark">
-                        <p>NILAI KESELURUHAN</p><span>RM 684</span>
+                        <p>NILAI KESELURUHAN</p><span class="flex-shrink-0 ml-2">RM 684</span>
                     </div>
                 </div>
 
@@ -878,6 +887,19 @@
                     </summary>
                     <div class="p-4 md:p-6 pt-0 text-slate-600 text-xs md:text-base border-t border-slate-100 mt-2 leading-relaxed">
                         Selepas pembayaran berjaya, anda akan mendapat akses terus ke portal fail digital. Di dalam portal tersebut, terdapat fail untuk 'Voucher Simkad'. Klik pautan tersebut, isi borang alamat ringkas, dan pihak pengurusan akan menguruskan pos SIMKAD terus ke pintu rumah anda tanpa sebarang caj (Free Postage).
+                    </div>
+                </details>
+
+                <!-- NEW FAQ ADDED FOR CLARITY ON ACTIVATION -->
+                <details class="bg-white border-2 border-slate-100 rounded-xl md:rounded-2xl cursor-pointer group hover:border-brand-purple/30 transition-colors shadow-sm">
+                    <summary class="font-bold text-sm md:text-lg text-brand-dark p-4 md:p-6 flex justify-between items-center select-none">
+                        Bila saya boleh akses sistem E-Learning & Squad30?
+                        <span class="text-brand-purple bg-brand-purple/10 p-1.5 md:p-2 rounded-full group-open:rotate-45 transition-transform duration-300 flex-shrink-0 ml-4">
+                            <svg class="w-4 h-4 md:w-5 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M12 4v16m8-8H4"></path></svg>
+                        </span>
+                    </summary>
+                    <div class="p-4 md:p-6 pt-0 text-slate-600 text-xs md:text-base border-t border-slate-100 mt-2 leading-relaxed">
+                        Sistem E-Learning dan portal Squad30 eksklusif ini akan dibuka dan diberikan akses penuh sejurus <strong>selepas SIMKAD Eastel anda selamat sampai di tangan dan berjaya diaktifkan</strong>. Ini untuk memastikan anda telah bersedia memulakan langkah pemasaran mengikut turutan modul dengan tepat.
                     </div>
                 </details>
 
